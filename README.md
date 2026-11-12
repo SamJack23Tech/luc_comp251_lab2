@@ -77,6 +77,8 @@ Once you complete both items above, submit the link to your repository for lab 2
 
 **SECTION** <ins>is taught by</ins> exactly one **PROFESSOR**
 
+
+
 ##**ASSUMPTIONS**
 
 Can a STUDENT fill more than one SEAT? NO.
