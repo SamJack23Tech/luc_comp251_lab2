@@ -54,3 +54,43 @@ Once you complete both items above, submit the link to your repository for lab 2
 - [Make a ReadMe file Web-based Editor](https://www.makeareadme.com/)
 - [Draw.io Web-based diagramming tool](https://app.diagrams.net/)
 - [Creating Entity Relationship Diagrams using Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48)
+
+
+
+**STUDENT** <ins>fills</ins> **SEAT**
+
+**SEAT** <ins>is filled by one</ins> **STUDENT**
+
+**STUDENT** <ins>takes</ins> **COURSE**
+
+**COURSE** <ins>is taken by one or more</ins> **STUDENTS**
+
+**COURSE** <ins>is taught by</ins> exactly one **INSTRUCTOR**
+
+**INSTRUCTOR** <ins>teaches one or more</ins> **COURSES**
+
+**SECTION** </ins>has one or more</ins> **COURSES**
+
+**COURSE** <ins>has one or more</ins> **SECTIONs**
+
+**PROFESSOR** <ins>teaches</ins> zero or more **SECTIONs**
+
+**SECTION** <ins>is taught by</ins> exactly one **PROFESSOR**
+
+##**ASSUMPTIONS**
+
+Can a STUDENT fill more than one SEAT? NO.
+
+Can an INSTRUCTOR teach multiple COURSES? Yes.
+
+Can a COURSE have multiple SECTIONS? Yes.
+
+Can a PROFESSOR teach multiple SECTIONS? Yes.
+
+Can a SECTION exist without a PROFESSOR? No. 
+
+
+
+
+
+
