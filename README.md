@@ -65,7 +65,16 @@ Once you complete both items above, submit the link to your repository for lab 2
 
 **COURSE** <ins>is taken by one or more</ins> **STUDENTS**
 
-**COURSE** <ins>is taught by</ins> exactly one **INSTRUCTOR**
+**STUDENT** only <ins>has one</ins> **SCHEDULE** 
+
+**SCHEDULE** can have <ins>zero or more</ins> **STUDENTS** 
+
+**SCHEDULE** has one or more **COURSES**
+
+**COURSE** only <ins>have one </ins> **SCHEDULE**
+
+
+**COURSE** <ins>is taught by exactly one</ins>  **INSTRUCTOR**
 
 **INSTRUCTOR** <ins>teaches one or more</ins> **COURSES**
 
@@ -73,11 +82,18 @@ Once you complete both items above, submit the link to your repository for lab 2
 
 **COURSE** <ins>has one or more</ins> **SECTIONs**
 
+
 **PROFESSOR** <ins>teaches</ins> zero or more **SECTIONs**
 
 **SECTION** <ins>is taught by</ins> exactly one **PROFESSOR**
 
+**COURSE/SECTION** has <ins>only one</ins> **SECTION**
 
+**SECTION** has <ins>one or more</ins> **COURSE/SECTION**
+
+**COURSE/SECTION** has only one **COURSE**
+
+**COURSE** has <ins>one of more</ins> **COURSE/SECTION**
 
 ##**ASSUMPTIONS**
 
@@ -90,6 +106,7 @@ Can a COURSE have multiple SECTIONS? Yes.
 Can a PROFESSOR teach multiple SECTIONS? Yes.
 
 Can a SECTION exist without a PROFESSOR? No. 
+
 
 
 
